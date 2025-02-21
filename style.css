@@ -240,17 +240,17 @@
   @keyframes words {
     0%,
     35% {
-      content: "Freelance Graphic Designer Amiin";
+      content: "Curriculum Vitae";
     }
   
     36%,
     70% {
-      content: "Frontend Developer Aamiin";
+      content: "Curriculum Vitae..";
     }
   
     71%,
     100% {
-      content: "UI/UX Designer Aamiin";
+      content: "Curriculum Vitae";
     }
   }
   
