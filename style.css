@@ -229,24 +229,20 @@
     border-left: 3px solid var(--main-color);
     right: -8px;
     animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
+ @keyframes words {
+  0%, 35% {
+    content: "Novia Rahmadina Yuwana";
   }
-  
-  @keyframes cursor {
-    to {
-      border-left: 2px solid var(--main-color);
-    }
+
+  36%, 70% {
+    content: "Novia Rahmadina Yuwana";
   }
-  
-  @keyframes words {
-    0%,
-    35% {
-      content: "Curriculum Vitae";
-    }
-  
-    36%,
-    70% {
-      content: "Curriculum Vitae..";
-    }
+
+  71%, 100% {
+    content: "Novia Rahmadina Yuwana";
+  }
+}
+
   
     71%,
     100% {
